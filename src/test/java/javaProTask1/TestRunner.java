@@ -11,7 +11,6 @@ public class TestRunner {
 
 
     public static void runTests(Class c) throws InvocationTargetException, IllegalAccessException {
-    //    Map<Method, List<Annotation>> methods = new HashMap<>();
         Map<Method, Integer> methodPriors = new HashMap<>();
 
         c.getClassLoader();
@@ -26,8 +25,6 @@ public class TestRunner {
         List<Method> sortMethods = new ArrayList<>();
         List<Annotation> methAnnot ;
         for (Method method : c.getDeclaredMethods() )  {
- //           methAnnot =  Arrays.stream(method.getAnnotations()).toList();
-        //    methods.put(method, methAnnot);
             if ( method.isAnnotationPresent(AfterSuite.class))  {
                 mAfterSuite = method;
                 coountAfterSuite++;

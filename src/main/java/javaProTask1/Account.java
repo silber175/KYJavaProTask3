@@ -4,6 +4,7 @@ import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
 import java.util.*;
+
 @ToString
 @EqualsAndHashCode
 public class Account {

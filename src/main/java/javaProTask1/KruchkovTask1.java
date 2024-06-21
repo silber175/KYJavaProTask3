@@ -4,7 +4,7 @@ import java.util.Currency;
 import java.util.HashMap;
 
 public class KruchkovTask1 {
-    public static void main(String[] args)
+        public static void main(String[] args)
 
     {
         Manager accSavers = new Manager();

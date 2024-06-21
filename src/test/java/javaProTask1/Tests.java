@@ -232,9 +232,7 @@ public class Tests {
             if(!(vCurrCount.get(vEur).equals(3000))) {
                 throw new RuntimeException("Error test : метод save неверно сохраняет колчество валюты");
             }
-
     }
-
     // Проверка метода undo при добавлении поля вид счета в класс Account
     // При наличии поля private String acntType  тесты
     @AfterSuite
