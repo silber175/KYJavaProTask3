@@ -9,8 +9,6 @@ import java.util.*;
 public class Tests {
     @BeforeSuite
 
-
-
 // Account creating with wrong nam
     public void accCreate() {
         try {

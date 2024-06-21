@@ -8,8 +8,6 @@ import java.util.*;
 import static java.lang.String.format;
 
 public class TestRunner {
-
-
     public static void runTests(Class c) throws InvocationTargetException, IllegalAccessException {
         Map<Method, Integer> methodPriors = new HashMap<>();
 

@@ -8,6 +8,7 @@ import java.util.*;
 @ToString
 @EqualsAndHashCode
 public class Account {
+
         private String name;
         private final Map<Currency, Integer> accCurrCount= new HashMap<>();
         // private ArrayList<AccSaver> accSavers;
