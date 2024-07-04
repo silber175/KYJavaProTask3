@@ -1,5 +1,6 @@
 package Task3;
 
+
 public class Fraction {
     private int num;
     private int denum;

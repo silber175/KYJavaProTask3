@@ -5,7 +5,6 @@ class Task implements Runnable {
     private int num;
     private int denum;
     public boolean busy;
-
     public Task(int taskNumber, int num, int denum) {
         this.taskNumber = taskNumber;
         this.num = num;
