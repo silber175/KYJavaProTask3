@@ -1,6 +1,6 @@
 package Task3;
 
-
+// Tasks for Pool
 class Task implements Runnable {
     private int taskNumber;
     private int num;
