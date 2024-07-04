@@ -2,6 +2,7 @@ package Task3;
 
 import java.util.LinkedList;
 
+
 public class Execise3 {
     public static void main(String[] args) {
         LinkedList<Runnable> taskList = new LinkedList<>();
