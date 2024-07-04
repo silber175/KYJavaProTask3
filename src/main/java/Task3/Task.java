@@ -1,5 +1,6 @@
 package Task3;
 
+
 class Task implements Runnable {
     private int taskNumber;
     private int num;

@@ -1,6 +1,5 @@
 package Task3;
 
-
 import java.util.LinkedList;
 import java.util.Deque;
 import java.util.concurrent.ExecutorService;
