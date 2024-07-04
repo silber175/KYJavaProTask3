@@ -1,7 +1,7 @@
 package Task3;
 
 import java.util.LinkedList;
-// Test TreadPool
+
 
 public class Execise3 {
     public static void main(String[] args) {
