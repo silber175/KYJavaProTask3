@@ -15,4 +15,4 @@ class Task implements Runnable {
         System.out.println("Task № "+taskNumber+"  Дробь "+this.num+"/"+this.denum+" = "+
                 (new Fraction(this.num,this.denum)).doubleValue() );
     }
-}}
+}
