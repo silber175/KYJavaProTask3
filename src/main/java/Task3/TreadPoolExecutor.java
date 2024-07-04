@@ -18,9 +18,9 @@ public class TreadPoolExecutor {
         this.threadCount = threadCount;
         this.taskList = taskList;
         threadPool = Executors.newFixedThreadPool(threadCount);
-
-        taskAdd(this.taskList);
         threadAviable = true;
+        taskAdd(this.taskList);
+
     }
     public void shutdown()  {
         threadAviable = false;
